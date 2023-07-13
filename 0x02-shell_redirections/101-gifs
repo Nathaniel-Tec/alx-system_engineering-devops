@@ -1,0 +1,3 @@
+#!/bin/bash
+find . -depth -type f -name "*.gif" -print %f'\n'\ LC
+-ALL=C sort -f |rev| cut -c 5- | rev
